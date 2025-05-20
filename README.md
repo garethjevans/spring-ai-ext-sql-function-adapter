@@ -1,6 +1,6 @@
-# spring-ai-ext-sql-function-adapter
+# spring-ai-ext-sql-tool-adapter
 
-A test project for the sql-function-adapter component.
+A test project for the sql-tool-adapter component.
 
 ## Prerequisites
 

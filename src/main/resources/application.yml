@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: spring-ai-ext-sql-function-adapter
+    name: spring-ai-ext-sql-tool-adapter
 
   datasource:
     driver-class-name: org.postgresql.Driver
@@ -16,10 +16,10 @@ spring:
       api-key: ${OPENAI_KEY}
       chat:
         # use a proxy to log all calls
-        base-url: http://localhost:9092
+        # base-url: http://localhost:9092
     mcp:
       server:
-        name: spring-ai-ext-sql-function-adapter
+        name: spring-ai-ext-sql-tool-adapter
         version: 1.0.0
         type: SYNC
         sse-message-endpoint: /mcp/messages
